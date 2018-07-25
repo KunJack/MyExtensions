@@ -26,7 +26,6 @@
 		885E3CA92108849E00B921F1 /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E3C962108849E00B921F1 /* CALayer+YYWebImage.m */; };
 		885E3CAA2108849E00B921F1 /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E3C982108849E00B921F1 /* YYWebImageOperation.m */; };
 		885E3CC5210885E100B921F1 /* UIColor+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E3CAF210885E100B921F1 /* UIColor+extension.m */; };
-		885E3CC6210885E100B921F1 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E3CB0210885E100B921F1 /* UIColor+Addition.m */; };
 		885E3CC7210885E100B921F1 /* NSDate+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E3CB2210885E100B921F1 /* NSDate+JKExtension.m */; };
 		885E3CC8210885E100B921F1 /* UIImage+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E3CB6210885E100B921F1 /* UIImage+JKExtension.m */; };
 		885E3CC9210885E100B921F1 /* UIImageView+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E3CB7210885E100B921F1 /* UIImageView+JKExtension.m */; };
@@ -80,10 +79,8 @@
 		885E3C962108849E00B921F1 /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YYWebImage.m"; sourceTree = "<group>"; };
 		885E3C972108849E00B921F1 /* YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImage.h; sourceTree = "<group>"; };
 		885E3C982108849E00B921F1 /* YYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageOperation.m; sourceTree = "<group>"; };
-		885E3CAD210885E100B921F1 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
 		885E3CAE210885E100B921F1 /* UIColor+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+extension.h"; sourceTree = "<group>"; };
 		885E3CAF210885E100B921F1 /* UIColor+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extension.m"; sourceTree = "<group>"; };
-		885E3CB0210885E100B921F1 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
 		885E3CB2210885E100B921F1 /* NSDate+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKExtension.m"; sourceTree = "<group>"; };
 		885E3CB3210885E100B921F1 /* NSDate+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKExtension.h"; sourceTree = "<group>"; };
 		885E3CB5210885E100B921F1 /* UIImageView+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JKExtension.h"; sourceTree = "<group>"; };
@@ -206,10 +203,8 @@
 		885E3CAC210885E100B921F1 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				885E3CAD210885E100B921F1 /* UIColor+Addition.h */,
 				885E3CAE210885E100B921F1 /* UIColor+extension.h */,
 				885E3CAF210885E100B921F1 /* UIColor+extension.m */,
-				885E3CB0210885E100B921F1 /* UIColor+Addition.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -217,8 +212,8 @@
 		885E3CB1210885E100B921F1 /* Date */ = {
 			isa = PBXGroup;
 			children = (
-				885E3CB2210885E100B921F1 /* NSDate+JKExtension.m */,
 				885E3CB3210885E100B921F1 /* NSDate+JKExtension.h */,
+				885E3CB2210885E100B921F1 /* NSDate+JKExtension.m */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -227,9 +222,9 @@
 			isa = PBXGroup;
 			children = (
 				885E3CB5210885E100B921F1 /* UIImageView+JKExtension.h */,
-				885E3CB6210885E100B921F1 /* UIImage+JKExtension.m */,
 				885E3CB7210885E100B921F1 /* UIImageView+JKExtension.m */,
 				885E3CB8210885E100B921F1 /* UIImage+JKExtension.h */,
+				885E3CB6210885E100B921F1 /* UIImage+JKExtension.m */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -379,7 +374,6 @@
 				885E3CA82108849E00B921F1 /* UIImage+YYWebImage.m in Sources */,
 				88F4296D2105C82500BA4333 /* main.m in Sources */,
 				885E3C9B2108849E00B921F1 /* YYCache.m in Sources */,
-				885E3CC6210885E100B921F1 /* UIColor+Addition.m in Sources */,
 				885E3CC9210885E100B921F1 /* UIImageView+JKExtension.m in Sources */,
 				885E3C992108849E00B921F1 /* YYImageCache.m in Sources */,
 				88F4295F2105C82500BA4333 /* AppDelegate.m in Sources */,

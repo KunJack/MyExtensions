@@ -1,9 +1,5 @@
 //
 //  UIImageView+JKExtension.h
-//  game
-//
-//  Created by 姜昆 on 2018/7/25.
-//  Copyright © 2018年 mingBo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
